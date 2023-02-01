@@ -9,7 +9,11 @@ To run the simulator you can run the current command:
 > python filtering_improvment.py <file_name> <kmer_len> <kmers_inMAT> <eth> <num_queries>
   
 filename:  *.fna file containing the genome
+  
 kmer_len:  the length of the kmers to extract from the genome
+  
 kmers_inMAT: number of kmers to fit in each crossbar array
+  
 eth:  the filter error threshold
+  
 num_queries: how many random queries to check. a larger number provides more precise average
